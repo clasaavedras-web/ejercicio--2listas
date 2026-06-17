@@ -18,6 +18,7 @@ def mostrar_agenda():
        return
 print("/n----contactos en la agenda---")
 for i,contacto in enumerate(agenda,start=1):
-   print(f"{1}.{contacto[´ nombre ']} / tel:{contacto[´telefono´]} / email:{contacto[´email ]})
-
+   print(f"{1}.{contacto[´ nombre ']} / tel:{contacto[´telefono´]} / email:
+   {contacto[´email ]})
+   print (f"total de contactos:{len(agenda)}/n")
 
